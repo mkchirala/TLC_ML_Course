@@ -1,0 +1,150 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww18400\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\ul \ulc0 With 70% train and 30% test; using only 8 dominant features
+\f1\b0 \ulnone \
+\
+Nearest Neighbors  : \
+              precision    recall  f1-score   support\
+\
+           0       0.92      0.80      0.86        15\
+           1       0.93      0.98      0.96        44\
+\
+    accuracy                           0.93        59\
+   macro avg       0.93      0.89      0.91        59\
+weighted avg       0.93      0.93      0.93        59\
+\
+[[12  3]\
+ [ 1 43]]\
+\
+\
+Linear SVM  : \
+              precision    recall  f1-score   support\
+\
+           0       1.00      0.07      0.12        15\
+           1       0.76      1.00      0.86        44\
+\
+    accuracy                           0.76        59\
+   macro avg       0.88      0.53      0.49        59\
+weighted avg       0.82      0.76      0.68        59\
+\
+[[ 1 14]\
+ [ 0 44]]\
+\
+\
+RBF SVM  : \
+              precision    recall  f1-score   support\
+\
+           0       0.89      0.53      0.67        15\
+           1       0.86      0.98      0.91        44\
+\
+    accuracy                           0.86        59\
+   macro avg       0.87      0.76      0.79        59\
+weighted avg       0.87      0.86      0.85        59\
+\
+[[ 8  7]\
+ [ 1 43]]\
+\
+\
+Gaussian Process  : \
+              precision    recall  f1-score   support\
+\
+           0       0.90      0.60      0.72        15\
+           1       0.88      0.98      0.92        44\
+\
+    accuracy                           0.88        59\
+   macro avg       0.89      0.79      0.82        59\
+weighted avg       0.88      0.88      0.87        59\
+\
+[[ 9  6]\
+ [ 1 43]]\
+\
+\
+Decision Tree  : \
+              precision    recall  f1-score   support\
+\
+           0       0.79      0.73      0.76        15\
+           1       0.91      0.93      0.92        44\
+\
+    accuracy                           0.88        59\
+   macro avg       0.85      0.83      0.84        59\
+weighted avg       0.88      0.88      0.88        59\
+\
+[[11  4]\
+ [ 3 41]]\
+\
+\
+Random Forest  : \
+              precision    recall  f1-score   support\
+\
+           0       0.85      0.73      0.79        15\
+           1       0.91      0.95      0.93        44\
+\
+    accuracy                           0.90        59\
+   macro avg       0.88      0.84      0.86        59\
+weighted avg       0.90      0.90      0.90        59\
+\
+[[11  4]\
+ [ 2 42]]\
+\
+\
+Neural Net  : \
+              precision    recall  f1-score   support\
+\
+           0       0.85      0.73      0.79        15\
+           1       0.91      0.95      0.93        44\
+\
+    accuracy                           0.90        59\
+   macro avg       0.88      0.84      0.86        59\
+weighted avg       0.90      0.90      0.90        59\
+\
+[[11  4]\
+ [ 2 42]]\
+\
+\
+AdaBoost  : \
+              precision    recall  f1-score   support\
+\
+           0       0.80      0.53      0.64        15\
+           1       0.86      0.95      0.90        44\
+\
+    accuracy                           0.85        59\
+   macro avg       0.83      0.74      0.77        59\
+weighted avg       0.84      0.85      0.84        59\
+\
+[[ 8  7]\
+ [ 2 42]]\
+\
+\
+Naive Bayes  : \
+              precision    recall  f1-score   support\
+\
+           0       0.65      0.73      0.69        15\
+           1       0.90      0.86      0.88        44\
+\
+    accuracy                           0.83        59\
+   macro avg       0.78      0.80      0.79        59\
+weighted avg       0.84      0.83      0.83        59\
+\
+[[11  4]\
+ [ 6 38]]\
+\
+\
+QDA  : \
+              precision    recall  f1-score   support\
+\
+           0       0.91      0.67      0.77        15\
+           1       0.90      0.98      0.93        44\
+\
+    accuracy                           0.90        59\
+   macro avg       0.90      0.82      0.85        59\
+weighted avg       0.90      0.90      0.89        59\
+\
+[[10  5]\
+ [ 1 43]]}

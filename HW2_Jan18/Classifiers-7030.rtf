@@ -1,0 +1,161 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;\red254\green212\blue213;
+}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c100000\c86667\c86667;
+}
+\margl1440\margr1440\vieww11020\viewh25520\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\ul \ulc0 With 70% train and 30% test
+\f1\b0 \ulnone \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb2 Nearest Neighbors  : \
+              precision    recall  f1-score   support\
+\
+           0       0.60      0.60      0.60        15\
+           1       0.86      0.86      0.86        44\
+\
+    accuracy                           0.80        59\
+   macro avg       0.73      0.73      0.73        59\
+weighted avg       0.80      0.80      0.80        59\
+\
+[[ 9  6]\
+ [ 6 38]]\
+\
+\
+Linear SVM  : \
+              precision    recall  f1-score   support\
+\
+           0       0.67      0.40      0.50        15\
+           1       0.82      0.93      0.87        44\
+\
+    accuracy                           0.80        59\
+   macro avg       0.74      0.67      0.69        59\
+weighted avg       0.78      0.80      0.78        59\
+\
+[[ 6  9]\
+ [ 3 41]]\
+\
+\
+RBF SVM  : \
+              precision    recall  f1-score   support\
+\
+           0       0.00      0.00      0.00        15\
+           1       0.75      1.00      0.85        44\
+\
+    accuracy                           0.75        59\
+   macro avg       0.37      0.50      0.43        59\
+weighted avg       0.56      0.75      0.64        59\
+\
+[[ 0 15]\
+ [ 0 44]]\
+\
+\
+Gaussian Process  : \
+              precision    recall  f1-score   support\
+\
+           0       0.62      0.53      0.57        15\
+           1       0.85      0.89      0.87        44\
+\
+    accuracy                           0.80        59\
+   macro avg       0.73      0.71      0.72        59\
+weighted avg       0.79      0.80      0.79        59\
+\
+[[ 8  7]\
+ [ 5 39]]\
+\
+\
+Decision Tree  : \
+              precision    recall  f1-score   support\
+\
+           0       0.71      0.67      0.69        15\
+           1       0.89      0.91      0.90        44\
+\
+    accuracy                           0.85        59\
+   macro avg       0.80      0.79      0.79        59\
+weighted avg       0.84      0.85      0.85        59\
+\
+[[10  5]\
+ [ 4 40]]\
+\
+\
+Random Forest  : \
+              precision    recall  f1-score   support\
+\
+           0       0.75      0.60      0.67        15\
+           1       0.87      0.93      0.90        44\
+\
+    accuracy                           0.85        59\
+   macro avg       0.81      0.77      0.78        59\
+weighted avg       0.84      0.85      0.84        59\
+\
+[[ 9  6]\
+ [ 3 41]]\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb4 /opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.\
+  'precision', 'predicted', average, warn_for)\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb2 Neural Net  : \
+              precision    recall  f1-score   support\
+\
+           0       0.70      0.47      0.56        15\
+           1       0.84      0.93      0.88        44\
+\
+    accuracy                           0.81        59\
+   macro avg       0.77      0.70      0.72        59\
+weighted avg       0.80      0.81      0.80        59\
+\
+[[ 7  8]\
+ [ 3 41]]\
+\
+\
+AdaBoost  : \
+              precision    recall  f1-score   support\
+\
+           0       0.91      0.67      0.77        15\
+           1       0.90      0.98      0.93        44\
+\
+    accuracy                           0.90        59\
+   macro avg       0.90      0.82      0.85        59\
+weighted avg       0.90      0.90      0.89        59\
+\
+[[10  5]\
+ [ 1 43]]\
+\
+\
+Naive Bayes  : \
+              precision    recall  f1-score   support\
+\
+           0       0.50      0.80      0.62        15\
+           1       0.91      0.73      0.81        44\
+\
+    accuracy                           0.75        59\
+   macro avg       0.71      0.76      0.71        59\
+weighted avg       0.81      0.75      0.76        59\
+\
+[[12  3]\
+ [12 32]]\
+\
+\
+QDA  : \
+              precision    recall  f1-score   support\
+\
+           0       1.00      0.40      0.57        15\
+           1       0.83      1.00      0.91        44\
+\
+    accuracy                           0.85        59\
+   macro avg       0.92      0.70      0.74        59\
+weighted avg       0.87      0.85      0.82        59\
+\
+[[ 6  9]\
+ [ 0 44]]}
